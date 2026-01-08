@@ -141,3 +141,56 @@
     font-size: 24px;
     margin: 0 0 10px 0;
 }
+
+
+
+/* brain-solution */
+
+.solution-section {
+    padding: 120px 120px 120px 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
+.sol-checklist {
+    gap: 20px;
+}
+
+.sol-checklist ul{
+    list-style: none;
+    padding: 0;      
+    gap: 16px; 
+}
+
+.check {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+
+}
+
+.check img {
+    width: 24px;
+    height: 24px;
+}
+
+.check h6{
+    margin: 0;
+    font-size: 16px;
+}
+
+.sol-checklist p{
+    font-size: 16px;
+    color: rgba(98, 115, 130, 1);
+}
+
+.sol-checklist h1{
+    font-size: 48px;
+}
+
+.highlighter3{
+    columns: rgb(15, 161, 76);
+    font-size: 16px;
+}
