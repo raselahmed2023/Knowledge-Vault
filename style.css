@@ -24,7 +24,7 @@
     font-size: 16px;
 }
 
-.btn1{
+.btn1 {
     border-radius: 4px;
     border-color: #469165;
     padding: 12px 16px;
@@ -33,7 +33,7 @@
     cursor: pointer;
 }
 
-.btn1:hover{
+.btn1:hover {
     background-color: #000000;
 }
 
@@ -55,16 +55,16 @@
     padding: 134px 341px;
 }
 
-.hero-head{
+.hero-head {
     font-size: 72px;
 }
 
-.highlighter1{
+.highlighter1 {
     color: #e7e7e7;
 }
 
-.highlighter2{
-    color:rgba(48, 184, 104, 1);
+.highlighter2 {
+    color: rgba(48, 184, 104, 1);
 }
 
 .hero-para {
@@ -74,13 +74,70 @@
 
 .btn2 {
     border-radius: 4px;
-    border: 1px solid #e7e7e7;
+    border: 1px solid rgba(255, 255, 255, 1);
     background-color: transparent;
     color: white;
     padding: 12px 16px;
     cursor: pointer;
 }
 
-.btn2:hover{
+.btn2:hover {
     color: #a62828;
+}
+
+
+/* section two notes */
+
+.notes-header {
+    margin: 0 auto;
+    max-width: 1200px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.notes-header h1 {
+    font-size: 48px;
+}
+
+.notes-header p {
+    margin: 0 auto;
+    font-size: 16px;
+}
+
+.card-container {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 24px;
+    margin-left: 120px;
+    margin-right: 120px;
+}
+
+.icon-deco {
+    background-color: #a62828;
+    border-radius: 50%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-info {
+    background-color: #ffffff;
+    border: 1px solid #eee;
+    border-radius: 12px;
+    padding: 30px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-head {
+    font-size: 24px;
+    margin: 0 0 10px 0;
 }
